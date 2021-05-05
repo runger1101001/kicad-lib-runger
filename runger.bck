@@ -1,0 +1,128 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP A1333
+D Precision, High Speed, Hall-Effect Angle Sensor IC with Integrated Diagnostics for Safety-Critical Applications, 3.3V
+K Magnetic Encoder
+$ENDCMP
+#
+$CMP AEAT_8800_Q24
+D 10- to 16-Bit Programmable Angular Magnetic Encoder
+K angular magnetic rotary sensor
+F https://docs.broadcom.com/doc/pub-005892
+$ENDCMP
+#
+$CMP AT30TS74-U1
+D 9- to 12-bit Selectable, ±1.0°C Accurate Digital Temperature Sensor
+K I2C temperature sensor
+F https://www.mouser.at/datasheet/2/268/Web_AT30TS74_0217-1509249.pdf
+$ENDCMP
+#
+$CMP AT30TS74-U1FMAB-T
+D I2C Address 1001 000X
+$ENDCMP
+#
+$CMP AT30TS74-U1FMBB-T
+D I2C Address 1001 001X
+$ENDCMP
+#
+$CMP AT30TS74-U1FMCB-T
+D I2C Address 1001 010X
+$ENDCMP
+#
+$CMP ArdunioMKR_Shield
+D Shield for Arduino MKR form factor boards
+K Arduino,MKR
+$ENDCMP
+#
+$CMP CAY10-103J4LF
+D 4 isolated resistor array, convex
+F https://www.mouser.at/datasheet/2/54/cay10old-63453.pdf
+$ENDCMP
+#
+$CMP DRV8316
+D 40-V max 8-A peak 3-phase motor driver with integrated current sensing
+K BLDC, Brushless Motor Driver, Integrated FET Driver, 3-PWM, 6-PWM
+F https://www.ti.com/lit/gpn/DRV8316
+$ENDCMP
+#
+$CMP INA199A1RSWR
+D Current sense amplifier
+$ENDCMP
+#
+$CMP ISO1044
+D Isolated CAN FD Transceiver in Small Package
+K CAN FD, CAN Transciever
+$ENDCMP
+#
+$CMP LDL212PV
+D Low drop regulator, 1.2A 2.5-18V in, 1.2-12V (100mV steps) fixed out or adjustable
+F https://www.mouser.at/datasheet/2/389/dm00225720-1798688.pdf
+$ENDCMP
+#
+$CMP R_Array04_Isolated
+D 4 isolated resistor array, convex
+$ENDCMP
+#
+$CMP STM32G030F6P6
+D STM32G030F6P6
+F https://www.st.com/resource/en/datasheet/stm32g030f6.pdf
+$ENDCMP
+#
+$CMP STTS751
+D 2.25 V low-voltage local digital temperature sensor, 2.5-3.6V
+K Digital Temperature sensor, I2C temperature sensor
+F https://www.mouser.at/datasheet/2/389/cd00252523-1796924.pdf
+$ENDCMP
+#
+$CMP STTS751-0DP3F
+D 2.25 V low-voltage local digital temperature sensor, 2.5-3.6V
+K Digital Temperature sensor, I2C temperature sensor
+F https://www.mouser.at/datasheet/2/389/cd00252523-1796924.pdf
+$ENDCMP
+#
+$CMP STTS751-1DP3F
+D 2.25 V low-voltage local digital temperature sensor, 2.5-3.6V
+K Digital Temperature sensor, I2C temperature sensor
+F https://www.mouser.at/datasheet/2/389/cd00252523-1796924.pdf
+$ENDCMP
+#
+$CMP TCA9406DC_BGA
+D 2-Bit Bidirectional 1-MHz, I2C Bus and SMBus Voltage-Level Translator With 8-kV HBM ESD
+K Bidirectional 1-MHz I2C SMBus Voltage-Level Translator 8kV HBM ESD
+F www.ti.com/lit/ds/symlink/tca9406.pdf
+$ENDCMP
+#
+$CMP TLE5012B
+D TLE5012BE1000XUMA1 - 12bit SSC angle sensor
+$ENDCMP
+#
+$CMP TSC2010
+D High voltage, precision, bidirectional current sense amplifiers - CM -20V to 70V, Gain 20V/V, 2.7 to 5.5 V supply, SO8 or MiniSO8
+K bidirectional current sense amplifier
+F https://www.mouser.at/datasheet/2/389/dm00630955-1799526.pdf
+$ENDCMP
+#
+$CMP TSC2011
+D High voltage, precision, bidirectional current sense amplifiers - CM -20V to 70V, Gain 60V/V, 2.7 to 5.5 V supply, SO8 or MiniSO8
+K bidirectional current sense amplifier
+F https://www.mouser.at/datasheet/2/389/dm00630955-1799526.pdf
+$ENDCMP
+#
+$CMP TSC2012
+D High voltage, precision, bidirectional current sense amplifiers - CM -20V to 70V, Gain 100V/V, 2.7 to 5.5 V supply, SO8 or MiniSO8
+K bidirectional current sense amplifier
+F https://www.mouser.at/datasheet/2/389/dm00630955-1799526.pdf
+$ENDCMP
+#
+$CMP VL53L1
+D Time-of-Flight ranging sensor with advanced multi-zone and multi-object detection
+F https://www.mouser.at/datasheet/2/389/vl53l1-1857832.pdf
+$ENDCMP
+#
+$CMP WeMos_D1_mini
+D WeMos D1 mini
+K esp8266, wemos
+F http://www.wemos.cc/Products/d1_mini.html
+$ENDCMP
+#
+#End Doc Library
