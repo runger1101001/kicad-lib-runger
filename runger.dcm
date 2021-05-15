@@ -5,10 +5,21 @@ D Precision, High Speed, Hall-Effect Angle Sensor IC with Integrated Diagnostics
 K Magnetic Encoder
 $ENDCMP
 #
+$CMP ADP124ACPZ
+D Linear regulator, 3.3V (or others), 500mA
+F https://www.mouser.at/datasheet/2/609/ADP124_125-1503283.pdf
+$ENDCMP
+#
 $CMP AEAT_8800_Q24
 D 10- to 16-Bit Programmable Angular Magnetic Encoder
 K angular magnetic rotary sensor
 F https://docs.broadcom.com/doc/pub-005892
+$ENDCMP
+#
+$CMP AT30TS74-MA8M-T
+D 9- to 12-bit Selectable, ±1.0°C Accurate Digital Temperature Sensor
+K I2C temperature sensor
+F https://www.mouser.at/datasheet/2/268/Web_AT30TS74_0217-1509249.pdf
 $ENDCMP
 #
 $CMP AT30TS74-U1
