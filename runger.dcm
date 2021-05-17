@@ -56,6 +56,12 @@ K BLDC, Brushless Motor Driver, Integrated FET Driver, 3-PWM, 6-PWM
 F https://www.ti.com/lit/gpn/DRV8316
 $ENDCMP
 #
+$CMP FA-118T
+D Two pin crystal, small symbol
+K quartz ceramic resonator oscillator
+F ~
+$ENDCMP
+#
 $CMP INA199A1RSWR
 D Current sense amplifier
 $ENDCMP

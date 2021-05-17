@@ -1,0 +1,43 @@
+(module Castellations_x3_1.5p_2hole (layer F.Cu) (tedit 60A18BEE)
+  (descr "Plated Half-holes, with inner row of holes, in P2.54mm")
+  (fp_text reference REF** (at 6.68 4.65) (layer F.SilkS)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_text value Castellations_x3_1.5p_2hole (at 5.35 -2.95) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (fp_line (start -1.69 0) (end 14.31 0) (layer F.Fab) (width 0.12))
+  (fp_text user "board edge" (at 19.02 -0.01) (layer F.Fab)
+    (effects (font (size 1 1) (thickness 0.15)))
+  )
+  (pad 1 thru_hole custom (at 0 0.01) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 0.5) (xy 0.5 0.5) (xy 0.5 1) (xy -0.5 1)) (width 0))
+    ))
+  (pad 1 thru_hole rect (at 0 1.5) (size 1 1) (drill 0.6) (layers *.Cu *.Mask))
+  (pad 2 thru_hole circle (at 1.5 1.5) (size 1 1) (drill 0.6) (layers *.Cu *.Mask))
+  (pad 2 thru_hole custom (at 1.5 0) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 0.5) (xy 0.5 0.5) (xy 0.5 1) (xy -0.5 1)) (width 0))
+      (gr_poly (pts
+         (xy -0.5 1.5) (xy 0 1) (xy 0.5 1.5) (xy 0.5 0.9) (xy -0.5 0.9)
+) (width 0))
+    ))
+  (pad 3 thru_hole custom (at 3 0) (size 1 1) (drill 0.6) (layers *.Cu *.Mask)
+    (zone_connect 0)
+    (options (clearance outline) (anchor rect))
+    (primitives
+      (gr_poly (pts
+         (xy -0.5 0.5) (xy 0.5 0.5) (xy 0.5 1) (xy -0.5 1)) (width 0))
+      (gr_poly (pts
+         (xy -0.5 1.5) (xy 0 1) (xy 0.5 1.5) (xy 0.5 0.9) (xy -0.5 0.9)
+) (width 0))
+    ))
+  (pad 3 thru_hole circle (at 3 1.5) (size 1 1) (drill 0.6) (layers *.Cu *.Mask))
+)
