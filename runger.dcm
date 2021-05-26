@@ -76,6 +76,12 @@ D Low drop regulator, 1.2A 2.5-18V in, 1.2-12V (100mV steps) fixed out or adjust
 F https://www.mouser.at/datasheet/2/389/dm00225720-1798688.pdf
 $ENDCMP
 #
+$CMP PCA9570
+D 4-bit I2C-bus and SMBus IO port, XQFN-8
+K i2c io port
+F http://www.nxp.com/documents/data_sheet/PCA9536.pdf
+$ENDCMP
+#
 $CMP R_Array04_Isolated
 D 4 isolated resistor array, convex
 $ENDCMP
@@ -111,6 +117,14 @@ $ENDCMP
 #
 $CMP TLE5012B
 D TLE5012BE1000XUMA1 - 12bit SSC angle sensor
+$ENDCMP
+#
+$CMP TPS63060
+D Buck/boost regulator 1.3A boost, 2A buck, adjustable output voltage
+$ENDCMP
+#
+$CMP TPS63061
+D Buck/boost regulator 1.3A boost, 2A buck, 5V fixed output voltage
 $ENDCMP
 #
 $CMP TSC2010
