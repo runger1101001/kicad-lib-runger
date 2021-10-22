@@ -76,6 +76,23 @@ D Low drop regulator, 1.2A 2.5-18V in, 1.2-12V (100mV steps) fixed out or adjust
 F https://www.mouser.at/datasheet/2/389/dm00225720-1798688.pdf
 $ENDCMP
 #
+$CMP LM3940-3.3
+D 1A Ultra-Low Quiescent Current LDO Voltage Regulator, 3.3V fixed output, SOT-223-4
+K linear regulator ldo fixed positive
+F https://www.ti.com/lit/ds/symlink/lm3940.pdf
+$ENDCMP
+#
+$CMP MIC5524
+D 500mA low dropout LDO, Fixed or Adjustable, 1x1mm Thin-DFN
+K MIC5524
+F https://www.mouser.at/datasheet/2/268/MIC5524-875860.pdf
+$ENDCMP
+#
+$CMP MIC5524-3.3YMT-T5
+D 500mA low dropout LDO, Fixed or Adjustable, 1x1mm Thin-DFN
+K MIC5524
+$ENDCMP
+#
 $CMP PCA9570
 D 4-bit I2C-bus and SMBus IO port, XQFN-8
 K i2c io port
@@ -117,6 +134,18 @@ $ENDCMP
 #
 $CMP TLE5012B
 D TLE5012BE1000XUMA1 - 12bit SSC angle sensor
+$ENDCMP
+#
+$CMP TLV767
+D 1A Low Dropout Voltage Regulator, Fixed or Adjustable Output, WSON6
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
+$ENDCMP
+#
+$CMP TLV76733DRV
+D 1A Low Dropout Voltage Regulator, Fixed Output 3.3V, WSON6
+K LDO Regulator Fixed Positive
+F http://www.ti.com/lit/ds/symlink/tlv755p.pdf
 $ENDCMP
 #
 $CMP TPS63060
