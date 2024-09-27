@@ -9782,7 +9782,7 @@
 				)
 			)
 			(pin passive line
-				(at 16.51 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08)
 				(name "GND_1"
 					(effects
@@ -9872,7 +9872,7 @@
 				)
 			)
 			(pin passive line
-				(at 35.56 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08)
 				(name "GND_4"
 					(effects
@@ -9980,7 +9980,7 @@
 				)
 			)
 			(pin passive line
-				(at 22.86 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08)
 				(name "GND_2"
 					(effects
@@ -10304,7 +10304,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08)
 				(name "GND_5"
 					(effects
@@ -10322,7 +10322,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_6"
 					(effects
@@ -10340,7 +10340,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_7"
 					(effects
@@ -10358,7 +10358,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_8"
 					(effects
@@ -10394,7 +10394,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_9"
 					(effects
@@ -10412,7 +10412,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_10"
 					(effects
@@ -10430,7 +10430,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_11"
 					(effects
@@ -10448,7 +10448,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_12"
 					(effects
@@ -10466,7 +10466,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_13"
 					(effects
@@ -10484,7 +10484,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_14"
 					(effects
@@ -10502,7 +10502,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_15"
 					(effects
@@ -10520,7 +10520,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_16"
 					(effects
@@ -10538,7 +10538,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_17"
 					(effects
@@ -10556,7 +10556,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_18"
 					(effects
@@ -10592,7 +10592,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_19"
 					(effects
@@ -10610,7 +10610,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_20"
 					(effects
@@ -10628,7 +10628,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_21"
 					(effects
@@ -10646,7 +10646,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_22"
 					(effects
@@ -10664,7 +10664,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_23"
 					(effects
@@ -10682,7 +10682,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_24"
 					(effects
@@ -10700,7 +10700,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_25"
 					(effects
@@ -10718,7 +10718,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_26"
 					(effects
@@ -10736,7 +10736,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_27"
 					(effects
@@ -10754,7 +10754,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_28"
 					(effects
@@ -10790,7 +10790,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_29"
 					(effects
@@ -10808,7 +10808,7 @@
 				)
 			)
 			(pin passive line
-				(at 41.91 -62.23 90)
+				(at 29.21 -62.23 90)
 				(length 5.08) hide
 				(name "GND_30"
 					(effects
