@@ -1,0 +1,118 @@
+(footprint "sk6812_mini_RGBW"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "programmable led")
+	(tags "led ")
+	(property "Reference" "U"
+		(at 0 0 0)
+		(layer "F.SilkS")
+		(uuid "f6a1de5f-55a1-46cf-afbe-dccda4da2c3b")
+		(effects
+			(font
+				(size 0.8 0.8)
+				(thickness 0.08)
+			)
+		)
+	)
+	(property "Value" "sk6812_mini_RGBW"
+		(at -0.508 4.445 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c7c68389-31a2-452e-9b6b-b30938db1f0e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "6e63d520-a61b-4247-87bf-7f0db8b26a8d")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "e8cf8231-eb9a-428c-bd86-c4df3a81ef7b")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "B.Fab")
+		(hide yes)
+		(uuid "cb579a3c-f99b-431c-b9b1-01a5d6259e47")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+			(justify mirror)
+		)
+	)
+	(attr smd)
+	(pad "1" smd rect
+		(at -1.7 -1.1)
+		(size 1.4 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "15d78be2-7338-495f-b299-009f2bfafb86")
+	)
+	(pad "2" smd rect
+		(at -1.7 0)
+		(size 1.4 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2f60d360-273f-416a-8260-69bd1c5f3f68")
+	)
+	(pad "3" smd rect
+		(at -1.7 1.1)
+		(size 1.4 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "42eadc83-ad93-4f7c-b6fa-721ce8772049")
+	)
+	(pad "4" smd rect
+		(at 1.7 1.1)
+		(size 1.4 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "e63d9b91-a0c7-4f9f-9ef0-8461906bfa10")
+	)
+	(pad "5" smd rect
+		(at 1.7 0)
+		(size 1.4 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "d9129356-4643-42a5-92d1-4b6311734ea2")
+	)
+	(pad "6" smd rect
+		(at 1.7 -1.1)
+		(size 1.4 0.65)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "9b4bd324-f809-40ef-8507-f6cac82a354a")
+	)
+	(model "${KICAD6_3RD_PARTY}/smd Led 5050 v3.step"
+		(offset
+			(xyz 4 15.2 0)
+		)
+		(scale
+			(xyz 0.6 0.6 0.6)
+		)
+		(rotate
+			(xyz -90 0 -90)
+		)
+	)
+)
