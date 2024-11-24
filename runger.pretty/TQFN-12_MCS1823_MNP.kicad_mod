@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "MCS1823GQTE-310BRN-P ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -2.85 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "f43c825e-d49d-424c-8c6a-95d8494d4401")
@@ -65,30 +65,6 @@
 		)
 	)
 	(attr smd)
-	(fp_poly
-		(pts
-			(xy -1.875 -0.9) (xy -1.875 -0.1) (xy -0.605 -0.1) (xy -0.605 -0.773) (xy -0.732 -0.9)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Cu")
-		(uuid "f955a212-d547-46fb-8002-542f07abcdaa")
-	)
-	(fp_poly
-		(pts
-			(xy -1.875 0.1) (xy -1.875 0.9) (xy -0.732 0.9) (xy -0.605 0.773) (xy -0.605 0.1)
-		)
-		(stroke
-			(width 0)
-			(type solid)
-		)
-		(fill solid)
-		(layer "F.Cu")
-		(uuid "f1065d2c-bfc5-416c-a583-29274df44410")
-	)
 	(fp_poly
 		(pts
 			(xy -1.875 -0.9) (xy -1.875 -0.1) (xy -0.605 -0.1) (xy -0.605 -0.773) (xy -0.732 -0.9)
@@ -526,26 +502,14 @@
 		)
 	)
 	(pad "1" smd rect
-		(at -1.45 -0.750189)
-		(size 0.127 0.127)
+		(at -1.24 -0.5)
+		(size 1.27 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "8cd49dce-d0d4-4bf2-a661-a65b6cca630e")
 	)
-	(pad "2" smd rect
-		(at -1.45 -0.250063)
-		(size 0.127 0.127)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "907e27e4-9523-4468-b139-3a6ee3e2ada3")
-	)
 	(pad "3" smd rect
-		(at -1.45 0.250063)
-		(size 0.127 0.127)
-		(layers "F.Cu" "F.Paste" "F.Mask")
-		(uuid "f970ce1f-1ebe-4ce4-abd4-e420a93880f7")
-	)
-	(pad "4" smd rect
-		(at -1.45 0.750189)
-		(size 0.127 0.127)
+		(at -1.2375 0.5)
+		(size 1.275 0.8)
 		(layers "F.Cu" "F.Paste" "F.Mask")
 		(uuid "ab53247d-a8d0-4b40-9c41-6058d34e1c4d")
 	)
