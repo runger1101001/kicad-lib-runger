@@ -6443,7 +6443,7 @@
 			)
 		)
 		(property "Description" "High linearity current sensor with isolation"
-			(at 0 0 0)
+			(at 0.254 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6452,7 +6452,7 @@
 			)
 		)
 		(property "Manu" "Allegro MicroSystems"
-			(at 0 0 0)
+			(at -8.128 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6461,7 +6461,7 @@
 			)
 		)
 		(property "Part" "CT110FDV-ID6"
-			(at 0 0 0)
+			(at -11.684 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6551,10 +6551,12 @@
 					)
 				)
 			)
+		)
+		(symbol "CT110_1_0"
 			(pin unspecified line
 				(at -10.16 3.81 0)
 				(length 2.54)
-				(name "VIN"
+				(name "VIN1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -6572,14 +6574,14 @@
 			(pin unspecified line
 				(at 10.16 3.81 180)
 				(length 2.54)
-				(name "VIN"
+				(name "VIN2"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "5"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)

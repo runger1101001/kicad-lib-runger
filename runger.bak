@@ -6443,7 +6443,7 @@
 			)
 		)
 		(property "Description" "High linearity current sensor with isolation"
-			(at 0 0 0)
+			(at 0.254 -12.954 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6452,7 +6452,7 @@
 			)
 		)
 		(property "Manu" "Allegro MicroSystems"
-			(at 0 0 0)
+			(at -8.128 -10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6461,7 +6461,7 @@
 			)
 		)
 		(property "Part" "CT110FDV-ID6"
-			(at 0 0 0)
+			(at -11.684 10.16 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6569,6 +6569,8 @@
 					)
 				)
 			)
+		)
+		(symbol "CT110_1_0"
 			(pin unspecified line
 				(at 10.16 3.81 180)
 				(length 2.54)
@@ -6579,7 +6581,7 @@
 						)
 					)
 				)
-				(number "5"
+				(number "6"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -12689,7 +12691,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(property "Reference" "U"
-			(at -20.32 13.97 0)
+			(at 13.462 8.128 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12698,7 +12700,7 @@
 			)
 		)
 		(property "Value" "ICM-42670-P"
-			(at -20.32 -22.86 0)
+			(at 1.27 -19.812 0)
 			(effects
 				(font
 					(size 1.27 1.27)
