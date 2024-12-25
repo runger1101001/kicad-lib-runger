@@ -48237,7 +48237,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_BGA:Texas_DSBGA-10_1.36x1.86mm_Layout3x4_P0.5mm"
+		(property "Footprint" "Package_DFN_QFN:UQFN-10_1.4x1.8mm_P0.4mm"
 			(at 1.27 -12.065 0)
 			(effects
 				(font
@@ -48274,7 +48274,7 @@
 				)
 			)
 		)
-		(property "ki_keywords" "switch analog SPDT"
+		(property "ki_keywords" "IC SWITCH SPDTX2 600MOHM 10UQFN"
 			(at 0 0 0)
 			(effects
 				(font
