@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(descr "programmable led")
 	(tags "led ")
-	(property "Reference" "U"
+	(property "Reference" "D"
 		(at 0 0 0)
 		(layer "F.SilkS")
 		(uuid "f6a1de5f-55a1-46cf-afbe-dccda4da2c3b")
@@ -68,6 +68,18 @@
 		)
 	)
 	(attr smd)
+	(fp_poly
+		(pts
+			(xy -2.15 -1.575) (xy -2.375 -1.875) (xy -1.925 -1.875)
+		)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill solid)
+		(layer "F.SilkS")
+		(uuid "1d153531-c347-41a3-8f1f-4b6d76c9fd96")
+	)
 	(pad "1" smd rect
 		(at -1.7 -1.1)
 		(size 1.4 0.65)

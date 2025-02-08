@@ -1,17 +1,140 @@
-(module Oscillator_1612 (layer F.Cu) (tedit 60A1A539)
-  (fp_text reference REF** (at 0.02 -1.705) (layer F.SilkS)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_text value Oscillator_1612 (at -0.12 2.48) (layer F.Fab)
-    (effects (font (size 1 1) (thickness 0.15)))
-  )
-  (fp_line (start -1.075 -0.87) (end 1.065 -0.87) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.065 -0.87) (end 1.065 0.855) (layer F.CrtYd) (width 0.05))
-  (fp_line (start 1.065 0.855) (end -1.075 0.855) (layer F.CrtYd) (width 0.05))
-  (fp_line (start -1.075 0.855) (end -1.075 -0.87) (layer F.CrtYd) (width 0.05))
-  (fp_circle (center -1.076846 0.84) (end -1.016846 0.855) (layer F.SilkS) (width 0.12))
-  (pad 1 smd rect (at -0.55 0.4) (size 0.65 0.55) (layers F.Cu F.Paste F.Mask))
-  (pad 2 smd rect (at 0.55 0.4) (size 0.65 0.55) (layers F.Cu F.Paste F.Mask))
-  (pad 4 smd rect (at -0.55 -0.4) (size 0.65 0.55) (layers F.Cu F.Paste F.Mask))
-  (pad 3 smd rect (at 0.55 -0.4) (size 0.65 0.55) (layers F.Cu F.Paste F.Mask))
+(footprint "Oscillator_1612"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.02 -1.705 0)
+		(layer "F.SilkS")
+		(uuid "20f17fab-c644-4288-b1d1-6b5b00a0a298")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Oscillator_1612"
+		(at -0.12 2.48 0)
+		(layer "F.Fab")
+		(uuid "121059db-e95d-466f-9125-2ae37afe8956")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "afc1504e-5043-40b2-aafd-77c5b8884ea2")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b13a2d1c-c7eb-4ea7-9e82-7079e6a7521f")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9dbeff55-5bf1-45b5-9ea0-5d9c28c179e8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center -1.076846 0.84)
+		(end -1.016846 0.855)
+		(stroke
+			(width 0.12)
+			(type solid)
+		)
+		(fill none)
+		(layer "F.SilkS")
+		(uuid "23d453cc-457a-4459-affa-571eebbac3eb")
+	)
+	(fp_line
+		(start -1.075 -0.87)
+		(end 1.065 -0.87)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "6a323e8f-82d2-427a-8f03-b60a485371a1")
+	)
+	(fp_line
+		(start -1.075 0.855)
+		(end -1.075 -0.87)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "17cacb6c-5872-4ee6-99c7-ac2a918a180e")
+	)
+	(fp_line
+		(start 1.065 -0.87)
+		(end 1.065 0.855)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "7a91c575-efe0-4ea7-b86d-9e339be07537")
+	)
+	(fp_line
+		(start 1.065 0.855)
+		(end -1.075 0.855)
+		(stroke
+			(width 0.05)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "3bd95569-d259-4eb0-964e-68cb8b976f03")
+	)
+	(pad "1" smd rect
+		(at -0.55 0.4)
+		(size 0.6 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "195b8a13-9bbf-46f6-8c68-f5608229b168")
+	)
+	(pad "2" smd rect
+		(at 0.55 0.4)
+		(size 0.6 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "878488d9-ac9b-4ea8-813c-3fa37ccbfd14")
+	)
+	(pad "3" smd rect
+		(at 0.55 -0.4)
+		(size 0.6 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "87e17bd9-c389-43aa-9442-dfda606d9ed4")
+	)
+	(pad "4" smd rect
+		(at -0.55 -0.4)
+		(size 0.6 0.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2ab047cb-6ddc-4807-8f1c-07f2c2eed0ca")
+	)
 )
