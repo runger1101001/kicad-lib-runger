@@ -5,7 +5,7 @@
 	(layer "F.Cu")
 	(tags "CSD13380F3 ")
 	(property "Reference" "REF**"
-		(at 0 0 0)
+		(at 0 -1.9 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(uuid "b5563ac7-b5fb-4b4b-953c-4c092a9006fe")
@@ -66,13 +66,13 @@
 	)
 	(attr smd)
 	(fp_circle
-		(center -1.4097 0)
-		(end -1.3335 0)
+		(center -0.45 -0.35)
+		(end -0.4 -0.35)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
-		(fill none)
+		(fill solid)
 		(layer "F.SilkS")
 		(uuid "0845046f-758c-420d-b124-1dc656f92b6f")
 	)
