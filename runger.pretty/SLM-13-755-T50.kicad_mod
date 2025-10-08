@@ -1,0 +1,183 @@
+(footprint "SLM-13-755-T50"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "Shinmei SP3T SMT switch")
+	(property "Reference" "REF**"
+		(at 0 -0.5 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "3c92f3e7-6a14-401d-8064-b25c12d420b5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "SLM-13-755-T50"
+		(at 0 3.75 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "a9f6e065-beff-4754-8f65-4d06534b55cb")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b2d03fc6-06ae-41c4-af97-1a3ac46b4d3f")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "5b06411b-2310-4c00-adc4-9da33f4a0680")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 2.5 3) (xy -2.5 3) (xy -2.5 2) (xy -5.45 2) (xy -5.45 -2.5) (xy 5.45 -2.5) (xy 5.45 2) (xy 2.5 2)
+		)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "c28d91af-ca4d-4bcd-85e5-60e584bafe21")
+	)
+	(fp_rect
+		(start -4.5 -1.5)
+		(end 4.5 1.5)
+		(stroke
+			(width 0.075)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "3d8c9678-fb19-48e2-8b73-2b74ac81b0f7")
+	)
+	(fp_rect
+		(start -2.15 1.5)
+		(end -0.85 2.5)
+		(stroke
+			(width 0.075)
+			(type dot)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "eff72233-c313-41fb-aca6-adb896f381b8")
+	)
+	(fp_rect
+		(start -0.65 1.5)
+		(end 0.65 2.5)
+		(stroke
+			(width 0.075)
+			(type solid)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "a63cb4c0-8acb-4155-8cb2-f3e967acdfc1")
+	)
+	(fp_rect
+		(start 0.85 1.5)
+		(end 2.15 2.5)
+		(stroke
+			(width 0.075)
+			(type dot)
+		)
+		(fill no)
+		(layer "F.Fab")
+		(uuid "ab4b093c-8ddf-4eac-9182-f4228ece490a")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.275 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "5541601f-4a14-441b-878f-b57fad2976f1")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at -3 0)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "a72d0fe9-5ca9-4f1c-87bf-1499d973df89")
+	)
+	(pad "" np_thru_hole circle
+		(at 3 0)
+		(size 0.9 0.9)
+		(drill 0.9)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "157346a8-8289-4e76-ab1e-3363f9200989")
+	)
+	(pad "1" smd rect
+		(at -3.35 -1.85)
+		(size 0.7 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "394e8f2c-196c-4151-aab8-81f71dd04e38")
+	)
+	(pad "2" smd rect
+		(at 1.85 -1.85)
+		(size 0.7 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "3b5628f3-5a64-4524-9a9f-6944f2799a99")
+	)
+	(pad "3" smd rect
+		(at -1.85 -1.85)
+		(size 0.7 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e8a768c6-11f5-45bf-aa16-a2d761e407d4")
+	)
+	(pad "3" smd rect
+		(at 0.35 -1.85)
+		(size 0.7 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "e5e5f2ed-88c6-405b-9a69-690785c0640d")
+	)
+	(pad "4" smd rect
+		(at 3.35 -1.85)
+		(size 0.7 1.1)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "d739cf1a-83fa-4537-8177-ef90349270b0")
+	)
+	(pad "MP" smd rect
+		(at -5 0)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "4996f37f-82c8-4d57-b676-73b9781cfc32")
+	)
+	(pad "MP" smd rect
+		(at 5 0)
+		(size 0.9 0.8)
+		(layers "F.Cu" "F.Mask" "F.Paste")
+		(uuid "52ff137e-ad7f-4778-adb0-259b98324445")
+	)
+	(embedded_fonts no)
+)
