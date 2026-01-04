@@ -8271,7 +8271,7 @@
 			)
 		)
 		(property "Value" "DRV8376S"
-			(at 0 10.16 0)
+			(at 0 7.112 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8316,7 +8316,7 @@
 		)
 		(symbol "DRV8376S_0_0"
 			(pin input line
-				(at -15.24 11.43 0)
+				(at -15.24 19.05 0)
 				(length 2.54)
 				(name "DRVOFF"
 					(effects
@@ -8334,7 +8334,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -15.24 8.89 0)
+				(at -15.24 16.51 0)
 				(length 2.54)
 				(name "nFAULT"
 					(effects
@@ -8352,7 +8352,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 6.35 0)
+				(at -15.24 13.97 0)
 				(length 2.54)
 				(name "nSLEEP"
 					(effects
@@ -8370,7 +8370,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 3.81 0)
+				(at -15.24 7.62 0)
 				(length 2.54)
 				(name "INHA"
 					(effects
@@ -8388,7 +8388,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 1.27 0)
+				(at -15.24 5.08 0)
 				(length 2.54)
 				(name "INLA"
 					(effects
@@ -8406,7 +8406,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -1.27 0)
+				(at -15.24 2.54 0)
 				(length 2.54)
 				(name "INHB"
 					(effects
@@ -8424,7 +8424,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -3.81 0)
+				(at -15.24 0 0)
 				(length 2.54)
 				(name "INLB"
 					(effects
@@ -8442,7 +8442,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -6.35 0)
+				(at -15.24 -2.54 0)
 				(length 2.54)
 				(name "INHC"
 					(effects
@@ -8460,7 +8460,7 @@
 				)
 			)
 			(pin input line
-				(at -15.24 -8.89 0)
+				(at -15.24 -5.08 0)
 				(length 2.54)
 				(name "INLC"
 					(effects
@@ -8550,7 +8550,7 @@
 				)
 			)
 			(pin power_out line
-				(at -6.35 30.48 270)
+				(at -8.89 30.48 270)
 				(length 2.54)
 				(name "AVDD"
 					(effects
@@ -8585,17 +8585,17 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at -2.54 30.48 270)
+			(pin power_out line
+				(at -3.81 30.48 270)
 				(length 2.54)
-				(name "VM"
+				(name "GVDD"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "2"
+				(number "10"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8639,17 +8639,17 @@
 					)
 				)
 			)
-			(pin power_out line
-				(at 5.08 30.48 270)
+			(pin power_in line
+				(at 6.35 30.48 270)
 				(length 2.54)
-				(name "GVDD"
+				(name "VM"
 					(effects
 						(font
 							(size 1.27 1.27)
 						)
 					)
 				)
-				(number "10"
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -8748,7 +8748,7 @@
 				)
 			)
 			(pin power_out line
-				(at 15.24 -1.27 180)
+				(at 15.24 1.27 180)
 				(length 2.54)
 				(name "OUTC"
 					(effects
@@ -23105,6 +23105,236 @@
 					)
 				)
 				(number "MP4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+		)
+		(embedded_fonts no)
+	)
+	(symbol "NCD98010"
+		(pin_names
+			(offset 0.254)
+		)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(property "Reference" "U"
+			(at 6.35 6.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "NCD98010"
+			(at 7.366 -7.112 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" "X2QFN_722AM_ONS"
+			(at 10.414 -14.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "NCD98010"
+			(at 6.35 -10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "NCD98010"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "X2QFN_722AM_ONS"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(symbol "NCD98010_0_1"
+			(polyline
+				(pts
+					(xy -6.35 5.08) (xy -11.43 0) (xy -6.35 -5.08) (xy 8.89 -5.08) (xy 8.89 5.08) (xy -6.35 5.08)
+				)
+				(stroke
+					(width 0)
+					(type default)
+				)
+				(fill
+					(type none)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 2.54 0)
+				(length 2.54)
+				(name "VINP"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "7"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at -11.43 -2.54 0)
+				(length 2.54)
+				(name "VINN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "8"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at -2.54 7.62 270)
+				(length 2.54)
+				(name "VCC"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "6"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_out line
+				(at 0 -7.62 90)
+				(length 2.54)
+				(name "GND"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "5"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin power_in line
+				(at 2.54 7.62 270)
+				(length 2.54)
+				(name "VDD"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "4"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 2.54 180)
+				(length 2.54)
+				(name "CLK"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "3"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin unspecified line
+				(at 11.43 0 180)
+				(length 2.54)
+				(name "CSN"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "1"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+			)
+			(pin output line
+				(at 11.43 -2.54 180)
+				(length 2.54)
+				(name "OUT"
+					(effects
+						(font
+							(size 1.27 1.27)
+						)
+					)
+				)
+				(number "2"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -57377,6 +57607,72 @@
 			)
 		)
 		(property "Description" "High accuracy (15 bit) absolute magnetic encoder"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+	)
+	(symbol "NCD98011"
+		(extends "NCD98010")
+		(property "Reference" "U"
+			(at 6.35 6.35 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Value" "NCD98010"
+			(at 7.366 -7.112 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 10.414 -14.224 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 6.35 -10.668 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_keywords" "NCD98010"
+			(at 0 0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "ki_fp_filters" "X2QFN_722AM_ONS"
 			(at 0 0 0)
 			(effects
 				(font
